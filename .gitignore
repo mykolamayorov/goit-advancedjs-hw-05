@@ -1,0 +1,80 @@
+# ----------------------------
+# Node.js & TypeScript Project
+# ----------------------------
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+tmp/
+temp/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & IDE folders
+.vscode/
+.idea/
+*.sw?
+*.swo
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OS Thumbnails
+._*
+
+# Optional caches
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# Coverage and reports
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Optional lock files (uncomment if using only one package manager)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Frontend build artifacts
+public/build/
+public/dist/
+
+# Optional logs for frameworks
+*.log
+
+# Misc
+*.tgz
+*.zip
+*.tar
